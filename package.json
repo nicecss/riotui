@@ -1,0 +1,17 @@
+{
+  "name": "riotui",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --config scripts/webpack.dev.js",
+    "serve": "webpack-dev-server --config scripts/webpack.dev.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "tag2-loader": "^1.0.0",
+    "webpack": "^2.1.0-beta.27",
+    "webpack-dev-server": "^1.16.2"
+  }
+}
