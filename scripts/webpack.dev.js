@@ -5,18 +5,20 @@ module.exports = {
   entry: './src/index.js',
   output: {
     filename: 'riotui.js',
-    path: './dist'
+    path: '/dist'
   },
   module: {
-    rules: [
-    {
+    rules: [{
       test: /\.tag$/,
       loader: "tag2-loader"
-    }
-    ]
+    }]
   },
+  plugins: [
+    new webpack.HotModuleReplacementPlugin()
+  ],
   devServer: {
-    port: 9000,
+    contentBase: 'examples',
+    inline: true,
     hot: true
   }
 }
