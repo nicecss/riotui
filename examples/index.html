@@ -3,14 +3,19 @@
 <head>
   <meta charset="UTF-8">
   <title>demo</title>
+  <link rel="stylesheet" href="http://localhost:8080/riotui.css">
 </head>
 <body>
-  <ui-button></ui-button>
+  <ui-img src="icon.png"
+    hover="icon-hover.png"
+    active="icon-active.png"
+    width="300"
+    height="300"
+  ></ui-img>
+  <ui-text size="20px">你好</ui-text>
 
-  <ui-table></ui-table>
-  
   <script src="http://localhost:8080/riot.min.js"></script>
-  <script type="text/javascript" src="http://localhost:8080/riotui.js"></script>
+  <script src="http://localhost:8080/riotui.js"></script>
   <script>
     riot.mount('*')
   </script>

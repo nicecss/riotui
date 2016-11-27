@@ -10,6 +10,9 @@
   "author": "",
   "license": "MIT",
   "devDependencies": {
+    "css-loader": "^0.26.0",
+    "extract-text-webpack-plugin": "^2.0.0-beta.4",
+    "style-loader": "^0.13.1",
     "tag2-loader": "^1.0.0",
     "webpack": "^2.1.0-beta.27",
     "webpack-dev-server": "^2.1.0-beta.11"
