@@ -22,6 +22,6 @@
   });
   this.up = function(){
     this.src = opts.hover || opts.src;
-  }
+  };
   </script>
 </ui-img>
